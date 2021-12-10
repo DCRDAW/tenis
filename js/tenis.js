@@ -271,6 +271,8 @@ class Vista {
     this.canvas.ctx.lineTo(campo.anchura / 2 , campo.altura)
     this.canvas.ctx.stroke()
 
+    this.canvas.ctx.moveTo(0,0)
+    this.canvas.ctx.lineTo(campo.anchura/2, campo.altura)
     /*
     //Línea de centro
     canvas.ctx.lineWidth = 1
