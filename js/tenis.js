@@ -267,8 +267,8 @@ class Vista {
     //Línea de red
     this.canvas.ctx.strokeStyle = 'white'
     this.canvas.ctx.lineWidth = 6
-    this.canvas.ctx.moveTo(campo.anchura / 2 - 5, 0)
-    this.canvas.ctx.lineTo(campo.anchura / 2 - 5, campo.altura)
+    this.canvas.ctx.moveTo(campo.anchura / 2 , 0)
+    this.canvas.ctx.lineTo(campo.anchura / 2 , campo.altura)
     this.canvas.ctx.stroke()
 
     /*
